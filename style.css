@@ -1,6 +1,19 @@
 body {
   background: #fff;
 }
+h1,
+h3 {
+  text-align: center;
+  color: #fd7e14;
+}
+#welcome-section {
+  text-align: center;
+  color: goldenrod;
+  display: none;
+  margin: 100px 0;
+  background-color: #f6f5fa;
+  padding: 60px 0;
+}
 .cart {
   margin: 100px 0;
   background-color: #f6f5fa;
@@ -52,4 +65,10 @@ body {
   font-size: 19px;
   background-color: #2fbe70;
   border: none;
+}
+.remove-item:hover {
+  background-color: #2fbe70;
+}
+.btn-default:hover {
+  background-color: #2fbe70;
 }
